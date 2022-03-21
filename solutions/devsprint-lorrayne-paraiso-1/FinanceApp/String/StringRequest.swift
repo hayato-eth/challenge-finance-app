@@ -9,8 +9,10 @@ import Foundation
 
 enum StringsRequest: String {
     
-    case baseURL = "https://raw.githubusercontent.com/devpass-tech/challenge-finance-app/main/"
-    case endPointHomeModel = "api/home_endpoint.json"
+    case baseURL = "https://raw.githubusercontent.com/devpass-tech/challenge-finance-app/main/api"
+
+    case endPointHomeModel = "/home_endpoint.json"
+    case endPointActivityDetails = "/activity_details_endpoint.json"
     
     func localized() -> String { rawValue }
 }
