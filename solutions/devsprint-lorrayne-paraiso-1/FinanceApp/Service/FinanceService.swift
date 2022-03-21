@@ -25,4 +25,21 @@ class FinanceService {
             }
         }.resume()
     }
+    
+    func fetchActivityDetails(completion: @escaping (ActivityDetailsModel?) -> Void) {
+        
+        let urlString = "\(StringsRequest.baseURL.localized())\(StringsRequest.endPointActivityDetails.localized())"
+        
+        guard let url = URL(string: urlString) else {return}
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            guard let data = data else { return }
+            do {
+                let resultActivityDetailsModel = try JSONDecoder().decode(ActivityDetailsModel.self, from: data)
+                completion(resultActivityDetailsModel)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }.resume()
+    }
 }
