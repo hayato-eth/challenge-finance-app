@@ -34,6 +34,7 @@
 		DA0E3FE727D7916800909410 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0E3FE627D7916800909410 /* TabBarViewController.swift */; };
 		DAAA736F27E1D6E400B15296 /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA736E27E1D6E400B15296 /* ActivityListView.swift */; };
 		DAAA737427E1D8A200B15296 /* StringRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAA737327E1D8A200B15296 /* StringRequest.swift */; };
+		DADDF32C27E86C6E00B86247 /* ActivityDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADDF32B27E86C6E00B86247 /* ActivityDetailsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		DA0E3FE627D7916800909410 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		DAAA736E27E1D6E400B15296 /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
 		DAAA737327E1D8A200B15296 /* StringRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringRequest.swift; sourceTree = "<group>"; };
+		DADDF32B27E86C6E00B86247 /* ActivityDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				989627DC27ADC2BC0009A07F /* HomeModel.swift */,
+				DADDF32B27E86C6E00B86247 /* ActivityDetailsModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				989627E027ADC2F60009A07F /* DebugViewController.swift in Sources */,
 				98584AA5277E35E90028DBEA /* HomeViewController.swift in Sources */,
 				98584AED277E50430028DBEA /* UserProfileView.swift in Sources */,
+				DADDF32C27E86C6E00B86247 /* ActivityDetailsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
